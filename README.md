@@ -1,7 +1,7 @@
-#Food Map Project
+# Food Map Project
 App that can select different foods
 
-#Web-app Link
+# Web-app Link
 https://jbdura.github.io/food-map/
 
 # Getting Started with Create React App
