@@ -13,43 +13,45 @@ const styles = {
 
 function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-light">
-      <div classname="container-fluid">
-        <NavLink
-          to="/"
-          exact
-          style={styles}
-          activeStyle={{
-            background: "#DFFF00",
-            color: "black"
-          }}
-        >
-          Home
-        </NavLink>
-        <NavLink
-          to="/foodfromAPI"
-          exact
-          style={styles}
-          activeStyle={{
-            background: "#DFFF00",
-            color: "black"
-          }}
-        >
-          FoodFromAPI
-        </NavLink>
-        <NavLink
-          to="/myfoodportfolio"
-          exact
-          style={styles}
-          activeStyle={{
-            background: "#DFFF00",
-            color: "black"
-          }}
-        >
-          MyFoodPortfolio
-        </NavLink>
-      </div>
-    </nav>
+    <div className="container">
+      <nav className="navbar fixed-top navbar-expand-lg bg-dark" >
+        <div classname="container-fluid">
+          <NavLink
+            to="/"
+            exact
+            style={styles}
+            activeStyle={{
+              background: "#DFFF00",
+              color: "black"
+            }}
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to="/foodfromAPI"
+            exact
+            style={styles}
+            activeStyle={{
+              background: "#DFFF00",
+              color: "black"
+            }}
+          >
+            FoodFromAPI
+          </NavLink>
+          <NavLink
+            to="/myfoodportfolio"
+            exact
+            style={styles}
+            activeStyle={{
+              background: "#DFFF00",
+              color: "black"
+            }}
+          >
+            MyFoodPortfolio
+          </NavLink>
+        </div>
+      </nav>
+    </div>
   );
 }
 
