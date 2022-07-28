@@ -8,7 +8,7 @@ const styles = {
   margin: "0 10px 10px",
   background: "#F39C12",
   color: "white",
-  fontSize: "30px"
+  fontSize: "auto"
 };
 
 function NavBar() {
@@ -16,16 +16,16 @@ function NavBar() {
     <div className="container">
       <nav className="navbar fixed-top navbar-expand-lg bg-dark" >
         <div classname="container-fluid">
-          <NavLink
-            to="/"
-            exact
-            style={styles}
-            activeStyle={{
-              background: "#DFFF00",
-              color: "black"
-            }}
-          >
-            Home
+              <NavLink
+              to="/"
+              exact
+              style={styles}
+              activeStyle={{
+                background: "#DFFF00",
+                color: "black"
+              }}
+            >
+              Home
           </NavLink>
           <NavLink
             to="/foodfromAPI"
