@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/react-gh-pages/static/js/main.8c61ce18.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.8c61ce18.js.map": "/react-gh-pages/static/js/main.8c61ce18.js.map"
+    "main.js": "/food-map/static/js/main.8c61ce18.js",
+    "index.html": "/food-map/index.html",
+    "main.8c61ce18.js.map": "/food-map/static/js/main.8c61ce18.js.map"
   },
   "entrypoints": [
     "static/js/main.8c61ce18.js"
