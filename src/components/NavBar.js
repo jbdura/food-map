@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const styles = {
-  display: "inline-block",
+  display: "inline",
   width: "auto",
   padding: "20px",
   margin: "0 10px 10px",
@@ -15,6 +15,7 @@ function NavBar() {
   return (
     <div className="container">
       <nav className="navbar fixed-top navbar-expand-lg bg-dark" >
+        <br/>
         <div classname="container-fluid">
               <NavLink
               to="/"
