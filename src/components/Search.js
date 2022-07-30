@@ -2,7 +2,7 @@ import React from "react";
 
 function Search({handleSearch, search}) {
   return (
-    <div>
+    <div className="container">
       <input
         type="text"
         placeholder="Search by food"

@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const styles = {
   display: "inline",
   width: "auto",
-  padding: "20px",
+  // padding: "1px",
   margin: "0 10px 10px",
   background: "#F39C12",
   color: "white",
@@ -13,10 +13,10 @@ const styles = {
 
 function NavBar() {
   return (
-    <div className="container">
-      <nav className="navbar fixed-top navbar-expand-lg bg-dark" >
+    <div className="container-md ">
+      <nav className="navbar navbar-expand-sm fixed-top bg-dark" >
         <br/>
-        <div classname="container-fluid">
+        <div className="container-md">
               <NavLink
               to="/"
               exact

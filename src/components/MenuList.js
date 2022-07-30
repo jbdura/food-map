@@ -17,8 +17,11 @@ function MenuList({food, searchTerm, onSelectFood}) {
   }
 
   return (
-    <div>
-      {allFood()}
+    <div className="container-fluid">
+      <div className="row justify-content-md-center">
+        {allFood()}
+      </div>
+      
     </div>
   );
 }

@@ -36,9 +36,13 @@ function FoodFromAPI() {
   }
 
   return (
-    <div>
-      <Filter handleFilter={handleFilter}/>
-      <Search handleSearch={handleSearch}/>
+    <div className="container">
+      <div className="container-md">
+        <Filter handleFilter={handleFilter}/>
+        <Search handleSearch={handleSearch}/>
+      </div>
+      
+      
       {showDetail ? (<RecipeDetail selectedFood={selectedFood} onShowDetail={setShowDetail}/>) : null}
       <MenuList
         food={food}

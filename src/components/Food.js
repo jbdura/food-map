@@ -11,9 +11,11 @@ const style = {
 function Food({food, onSelectFood}) {
   return (
     <div style={style} className="card">
-      <br />
-      <h4>{food.title}</h4>
-      <img src={food.image} className='card-img-top' onClick={e=>onSelectFood(food.id)} alt={food.name} />
+      <div class="row justify-content-md-center">
+        <br />
+        <h4>{food.title}</h4>
+        <img src={food.image} className='card-img-top' onClick={e=>onSelectFood(food.id)} alt={food.name} />
+      </div>
     </div>
   );
 }
