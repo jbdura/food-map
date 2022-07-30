@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/food-map/static/js/main.6ccf2715.js",
+    "main.js": "/food-map/static/js/main.2245b9a0.js",
     "index.html": "/food-map/index.html",
-    "main.6ccf2715.js.map": "/food-map/static/js/main.6ccf2715.js.map"
+    "main.2245b9a0.js.map": "/food-map/static/js/main.2245b9a0.js.map"
   },
   "entrypoints": [
-    "static/js/main.6ccf2715.js"
+    "static/js/main.2245b9a0.js"
   ]
 }
