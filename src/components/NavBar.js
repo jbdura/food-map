@@ -14,7 +14,7 @@ const styles = {
 function NavBar() {
   return (
     <div className="container-md ">
-      <nav className="navbar navbar-expand-sm fixed-top bg-dark" >
+      <nav className="navbar navbar-expand fixed-top bg-dark py-0" >
         <br/>
         <div className="container-md">
               <NavLink
