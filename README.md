@@ -1,6 +1,7 @@
 # Food Map Project
-App that can select different foods
-
+Phase 2 Project.
+The web app is a food options web app. It fetches data from the API to display on the page. The data has various recipes depending on preference.
+User can find through the dropdown or by search box. 
 # Web-app Link
 https://jbdura.github.io/food-map/
 
